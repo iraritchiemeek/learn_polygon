@@ -23,9 +23,9 @@ const Connect = ({ account, setAccount }: { account: PolygonAccountT, setAccount
       // TODO
       // Connect to Polygon using Web3Provider and Metamask
       // Define address and network
-      const web3provider = undefined
-      const address = undefined
-      const network = undefined
+      const web3provider = provider
+      const address = '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266'
+      const network = 'https://rpc-mumbai.maticvigil.com/'
 
       setAccount(address)
       setNetwork(network)
